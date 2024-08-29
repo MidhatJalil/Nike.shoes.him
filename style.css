@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+
+   font-family: "Poppins", sans-serif;
+    /* font-weight: 800; */
+    font-style: normal;
+  }
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between
+}
+nav .left img{
+    margin: 1rem 2rem;
+}
+nav .mid .list{
+    display: flex;
+    gap: 3rem;
+  
+}
+
+nav .mid .list li{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: black;
+    font-size: 18px;
+    
+}
+nav .mid ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav .right #btn{
+    height: 1.7rem;
+    width: 4rem;
+    color: white;
+    background-color: red;
+    border: none;
+    float: right;
+    margin-right: 1rem;
+
+}
+
+nav #toggle {
+    
+    display: none;
+   
+   
+
+}
+nav .menu-toggle{
+   
+    /* position: absolute; */
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    /* top: 50%; */
+    /* right: 3rem; */
+    /* transform: translateY(-50%); */
+}
+
+.nav-login-btn {
+    display: none;
+  }
+
+
+
+.main{
+    display: flex;
+}
+.main h1{
+    font-size: 70px;
+    font-weight: 800;
+    margin: 5rem 0 0 1rem;
+
+}
+.main p{
+    font-size: 14px;
+    margin: 0 5.5rem 0 1rem;
+    padding: 1rem 0 0 0.5rem;
+    font-weight: 600;
+}
+.main .left {
+    
+    width: 60%;
+    margin-left: 8rem;
+
+
+}
+
+.main .right {
+    width: 45%;
+    margin-right:8rem ;
+
+
+}
+.main .right img{
+    margin: 6rem 10rem 5rem 0;
+    width: 40rem ;
+    height: 30rem;
+    filter: drop-shadow(13px 23px 11px rgba(0,0,0,0.5));
+}
+.button{
+    margin-left:8rem ;
+    margin-top: -12rem;
+}
+
+.btnone {
+    margin: 2rem 2rem 0 1.5rem;
+text-align: center;
+height: 2rem;
+width: 6rem;
+background-color: red;
+font-size: 17px;
+color: white;
+font-weight: 400;
+border: none;
+
+
+}
+
+.btntwo {
+    margin: 2rem 2rem 0 .8rem;
+text-align: center;
+height: 2rem;
+width: 6rem;
+background-color: rgb(255, 255, 255);
+font-size: 17px;
+color: rgba(56, 50, 50, 0.445);
+font-weight: 600;
+border: 1px solid black;
+
+
+}
+
+.add{
+    margin-left:8rem ;
+}
+.add h6{
+    margin: 1rem 0 01rem 1.5rem;
+
+}
+.add img{
+    margin: 0 0 0 1.5rem;
+    width: 2rem;
+    height: 2rem;
+
+
+}
+
+
+
+
+
+
+
+
+
